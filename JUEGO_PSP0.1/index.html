@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cara o Sello</h1>
+  </header>
+  <div class="marcador">
+    <div class="user-label badge">Usuario</div>
+    <div class="comp-label badge">PC</div>
+    <span id="user-score">0</span> : 
+    <span id="comp-score">0</span>
+  </div>
+  <div class="marcador2"><div>
+    <input class="apuesta" type="text" placeholder="Valor de la apuesta"><br>
+    <button class="apu1">Aceptar</button>
+    <button class="apu2">Duplicar</button></div>
+    <div>
+      <div class="apues">Apuesta en juego</div><br>
+      <div class="badge">0</div>
+    </div>
+  </div>
+  <div class="gir">
+    <div class="girando">
+      <img src="img/monedaG.gif" alt="">
+    </div>
+  </div>
+  <div class="result">
+    <p>Elija una opcion!!</p>
+  </div>
+  <div class="opciones">
+    <div class="choice" id="c">
+      <h3>Cara</h3>
+    </div>
+    <div class="choice" id="s">
+      <h3>Sello</h3>
+    </div>
+  </div>
+  <p id="accion">A jugar!</p>
+  <p id="accion">Si deseas iniciar una nueva partida oprime aqui 👉<a href="index.html">Reiniciar</a>👈 </p> <br>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
